@@ -26,6 +26,7 @@ public class Kalkulator {
 //    System.out.println(wynik);
     }
 
+//    jeśli nie chcemy, żeby 'policz' nie była metodą statyczną to musimy stworzyć nowy obiekt na klasie, na której wywołujemy tą metodę.
      public static int policz(int liczba1, int liczba2, String działanie) {
         if (działanie.equals("+"))
             System.out.println(liczba1 + liczba2);
